@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+@import url(//db.onlinewebfonts.com/c/900420b3389e695ce84f5cf081b110d1?family=SignPainter);
+@font-face {
+    font-family: "SignPainter";
+    src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot");
+    src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff") format("woff"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.svg#SignPainter") format("svg");
+}
+
+.carousel-item img {
+    width: 100vw;
+}
+
+.slide {
+    width: 100vw;
+}
+
+.conteudo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #FFD6DA;
+    font-family: 'Oxygen';
+    color: #78141e;
+    padding: 30px;
+    padding-left: 40%;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/card1semfundo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:20%;
+    background-position-y: 20px;
+
+}
+
+.colecao {
+    color: #78141e;
+    font-size: 24px;
+}
+
+.titulo-card {
+    color: #78141e;
+    font-size: 56px;
+}
+
+.card-texto {
+    color: #746263;
+    font-size: 26px;
+}
+
+
+
+.botao-modelos {
+    width: 160px;
+    height: 40px;
+    background-color: #78141e;
+    color: #bb898e;
+    border-radius: 15px 15px;
+    size: 260px;
+}
+
+.conteudo-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #f8acbc;
+    height: 400px;
+    font-family: 'Oxygen';
+    color: #78141e;
+    padding: 30px;
+    padding-left: 40%;
+    background-image: url(../img/card2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:20%;
+}
+
+.conteudo-card3 {
+    align-items: flex-start;
+    background: #c25765;
+    /* height: 500px; */
+    font-family: 'Oxygen';
+    color: #78141e;
+    padding: 30px;
+    padding-left: 40%;
+    background-image: url(../img/card3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:20%;
+    background-position-y: 10px;
+}
+
+.card-texto2 {
+    color: #775159;
+    font-size: 26px;
+}
+
+.card-texto3 {
+    color: #4f383a;
+    font-size: 26px;
+}
+
+/* replicar container em todos cards para estilizar */
+
+
+.cartoes {
+    height: 400px;
+    width: 100%;
+}

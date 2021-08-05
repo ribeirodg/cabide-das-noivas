@@ -19,6 +19,7 @@ footer{
 .logo-footer{
     color: #78141e;
     margin-bottom: 20px;
+    font-size: 40px;
 
 }
 .texto-footer-centro{
@@ -51,6 +52,9 @@ display: flex;
     margin-bottom: 20px;
     font-size: 15px;
     color: #78141e;
+    font-size: 20px;
+    font-family: 'Oxygen';
+    
 }
 .apple-img{
     width: 150px;
@@ -59,7 +63,7 @@ display: flex;
     width: 150px;
 }
 .copyright{
-    margin-left: 553px;
+    margin-left: 39%;
     margin-top: 200px;
 }
 .app{
