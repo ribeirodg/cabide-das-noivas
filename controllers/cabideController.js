@@ -1,8 +1,11 @@
-// const petsJson = require('../database/pets.json') 
-const cabideController= {
-    index:(req,res) => {
-      return res.render("index")  
-    },
+
+    module.exports = {
+      index: (req, res) => {
+          res.render('index', { title: 'Cabide das Noivas - Home' });
+      },
+      modelos: (req, res) => {
+          res.render('modelos', { title: 'Cabide das Noivas - Modelo' });
+      },
     login:(req,res) => {
       return res.render("login")  
       },
@@ -10,4 +13,3 @@ const cabideController= {
       return res.render("entrar")  
       }
 }
-module.exports = cabideController;
