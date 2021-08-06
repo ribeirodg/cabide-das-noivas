@@ -36,7 +36,7 @@
     padding-left: 40%;
     height: 400px;
     width: 100%;
-    background-image: url(../img/card1semfundo.png);
+    background-image: url(/images/card1semfundo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:20%;
@@ -81,7 +81,7 @@
     color: #78141e;
     padding: 30px;
     padding-left: 40%;
-    background-image: url(../img/card2.png);
+    background-image: url(/images/card2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:20%;
@@ -95,7 +95,7 @@
     color: #78141e;
     padding: 30px;
     padding-left: 40%;
-    background-image: url(../img/card3.png);
+    background-image: url(/images/card3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:20%;

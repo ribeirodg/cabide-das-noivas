@@ -263,6 +263,9 @@ li {
 }
 
 .img1-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 620px;
     height: 700px;
     margin-top: 200px;
