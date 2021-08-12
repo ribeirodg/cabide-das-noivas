@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-</head>
-<body>
-    PAGINA SOBRE!!!
+<html>
+<%- include('partials/head') %>
+
+    <body>
+
+
+        <%- include('partials/header') %>
+
+
+
+        <div class="container">
+
+            <div class="img-sobre">
+
+                <img id="img-sobre" src="/images/vestidos-cabide.jpg" alt="img1">
+                <img id="img-sobre" src="/images/vestidos-cabide2.jpg" alt="img2">
+                <img id="img-sobre" src="/images/vestido-branco-cabide.jpeg" alt="img3">
+            </div>
+            <p id="texto-sobre">Tradição desde 1979 na Rua das Noivas em São Paulo, o Ateliê Cabide das Noivas transforma sonhos em realidade, vestidos de noiva em verdadeiras obras de arte. Temos modelos de nossa alta costura sob medida para você. São mais de 100 vestidos para venda, do jeito que você sempre sonhou, atendendo todas às suas necessidades.
+
+                 Possuímos ateliê próprio, com costuras e bordados feitos à mão, o que torna seu modelo ainda mais exclusivo e especial.
+                
+                Seu vestido dos sonhos você encontra aqui.
+                
+                </p>
+        </div>
+
+
+
+
+        </main>
+
+
+
+    <%- include('partials/footer') %>
+
+
 </body>
 </html>

@@ -38,10 +38,6 @@ nav li {
     height: 30px;
 }
 
-/* .sobre{
-    padding-right: 30px;
-} */
-
 .logo {
     margin-left: 10%;
     margin-bottom: 0px;
@@ -93,9 +89,7 @@ header form {
    
 }
 
-/* li {
-    padding: 5px 40px 5px 5px;
-} */
+
 
 .buscar {
     width: 300px;
@@ -154,3 +148,19 @@ header form {
     border: none;
     margin-left: -40px;
 }
+
+.link{
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Oxygen';
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: none;
+
+	}
+a:active {
+	text-decoration: none
+	}

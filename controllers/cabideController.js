@@ -11,7 +11,7 @@ module.exports = {
     });
   },
   contato: (req, res) => {
-    res.render('contato', {
+    res.render('entreEmContato', {
       title: 'Cabide das Noivas - Contato'
     });
   },
