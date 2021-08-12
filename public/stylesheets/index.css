@@ -1,121 +1,233 @@
-* {
-    padding: 0;
-    margin: 0;
-    outline: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    color: white;
-
-}
-
-@import url(//db.onlinewebfonts.com/c/900420b3389e695ce84f5cf081b110d1?family=SignPainter);
-@font-face {
-    font-family: "SignPainter";
-    src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot");
-    src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff") format("woff"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.svg#SignPainter") format("svg");
-}
-
-.carousel-item img {
-    width: 100vw;
-}
-
-.slide {
-    width: 100vw;
-}
-
-.conteudo-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background: #FFD6DA;
-    font-family: 'Oxygen';
-    color: #78141e;
-    padding: 30px;
-    padding-left: 40%;
-    height: 400px;
-    width: 100%;
-    background-image: url(/images/card1semfundo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:20%;
-    background-position-y: 20px;
-
-}
-
-.colecao {
-    color: #78141e;
-    font-size: 24px;
-}
-
-.titulo-card {
-    color: #78141e;
-    font-size: 56px;
-}
-
-.card-texto {
-    color: #746263;
-    font-size: 26px;
-}
-
-
-
-.botao-modelos {
-    width: 160px;
-    height: 40px;
-    background-color: #78141e;
-    color: #bb898e;
-    border-radius: 15px 15px;
-    size: 260px;
-}
-
-.conteudo-card2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background: #f8acbc;
-    height: 400px;
-    font-family: 'Oxygen';
-    color: #78141e;
-    padding: 30px;
-    padding-left: 40%;
-    background-image: url(/images/card2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:20%;
-}
-
-.conteudo-card3 {
-    align-items: flex-start;
-    background: #c25765;
-    /* height: 500px; */
-    font-family: 'Oxygen';
-    color: #78141e;
-    padding: 30px;
-    padding-left: 40%;
-    background-image: url(/images/card3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:20%;
-    background-position-y: 10px;
-}
-
-.card-texto2 {
-    color: #775159;
-    font-size: 26px;
-}
-
-.card-texto3 {
-    color: #4f383a;
-    font-size: 26px;
-}
-
-/* replicar container em todos cards para estilizar */
-
-
-.cartoes {
-    height: 400px;
-    width: 100%;
-}
+        * {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+            color: white;
+        }
+        
+        @import url(//db.onlinewebfonts.com/c/900420b3389e695ce84f5cf081b110d1?family=SignPainter);
+        @font-face {
+            font-family: "SignPainter";
+            src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot");
+            src: url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.woff") format("woff"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/900420b3389e695ce84f5cf081b110d1.svg#SignPainter") format("svg");
+        }
+        
+        .carousel-item img {
+            width: 100vw;
+        }
+        
+        .slide {
+            width: 100vw;
+        }
+        
+        .conteudo-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #FFD6DA;
+            font-family: 'Oxygen';
+            color: #78141e;
+            padding: 30px;
+            padding-left: 40%;
+            height: 400px;
+            width: 100%;
+            background-image: url(/images/card1semfundo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 20%;
+            background-position-y: 20px;
+        }
+        
+        .colecao {
+            color: #78141e;
+            font-size: 24px;
+        }
+        
+        .titulo-card {
+            color: #78141e;
+            font-size: 56px;
+        }
+        
+        .card-texto {
+            color: #746263;
+            font-size: 26px;
+        }
+        
+        .botao-modelos {
+            width: 160px;
+            height: 40px;
+            background-color: #78141e;
+            color: #bb898e;
+            border-radius: 15px 15px;
+            size: 260px;
+        }
+        
+        .conteudo-card2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #f8acbc;
+            height: 400px;
+            font-family: 'Oxygen';
+            color: #78141e;
+            padding: 30px;
+            padding-left: 40%;
+            background-image: url(/images/card2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 20%;
+        }
+        
+        .conteudo-card3 {
+            align-items: flex-start;
+            background: #c25765;
+            /* height: 500px; */
+            font-family: 'Oxygen';
+            color: #78141e;
+            padding: 30px;
+            padding-left: 40%;
+            background-image: url(/images/card3.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 20%;
+            background-position-y: 10px;
+        }
+        
+        .card-texto2 {
+            color: #775159;
+            font-size: 26px;
+        }
+        
+        .card-texto3 {
+            color: #4f383a;
+            font-size: 26px;
+        }
+        /* replicar container em todos cards para estilizar */
+        
+        .cartoes {
+            height: 400px;
+            width: 100%;
+        }
+        /* Estilo da rota /contato */
+        
+        form {
+            font-family: 'Oxygen';
+            color: #565656;
+        }
+        
+        .container-section {
+            width: 1170px;
+            height: 585px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .textoSection {
+            padding: 40px;
+            font-size: 18px;
+            color: black;
+            letter-spacing: 1.5px;
+            line-height: 35px;
+            text-align: center;
+            font-weight: 300;
+        }
+        
+        #formExemplo {
+            font-family: 'Oxygen';
+            color: #555;
+        }
+        
+        .col {
+            height: 60px;
+            width: 585px;
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        
+        form input {
+            display: block;
+            width: 100%;
+            height: 26px;
+            padding: 6px 12px;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #555;
+            background-color: #fff;
+        }
+        
+        .input-email {
+            height: 40px;
+            width: 50%;
+        }
+        
+        #inputMensagem {
+            width: 100%;
+            height: 160px;
+            padding: 6px 12px;
+            margin-bottom: 35px;
+        }
+        
+        .btnEnviar {
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 9px 22px;
+            align-items: center;
+            margin-left: 45%;
+            /* margin-top: 10%; */
+            background-color: #78141e !important;
+            font-family: 'Oxygen';
+            letter-spacing: 2px;
+            line-height: 1.42857143;
+            user-select: none;
+            vertical-align: middle;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        
+        .btnEnviar:hover {
+            background-color: white;
+        }
+        /* MAPA CSS */
+        
+        .map-container-5 {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+        
+        .map-container-5 iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+        
+        .sectionMapa {
+            height: 510px;
+            margin-bottom: 30px;
+            margin-left: 14%;
+            width: 100%;
+        }
+        
+        section ul {
+            color: #565656;
+        }
+        
+        section li {
+            color: #565656;
+            margin-top: 3%;
+        }
