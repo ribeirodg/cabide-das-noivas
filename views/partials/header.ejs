@@ -1,34 +1,35 @@
 <header>
-    <div class="header-pai">
-        <div class="div-logo">
-        <h2 class="logo">Cabide das noivas</h2>
-    </div>
-        <form action="/busca" method="GET" class="container-pesquisa">
-            <div class="input-grupo">
-                <input type="text" class="input-buscar" placeholder="Busque aqui seu produto">
-                <span class="input-grupo-span">
-                    <button class="lupa" type="submit"><img src="./images/lupa.png" alt="lupa"></button>
-                </span>
-                </input>
-            </div>
-        </form>
-        <nav>
-            <div class="lista-nav">
-                <a href="/colecoes" class="link">COLEÇÕES</a>
-                <a href="/modelos" class="link">MODELOS</a>
-                <a href="/sobre" class="link">SOBRE</a>
-                <a alt="carrinho de compras" class="carrinho" href="/modelos"><img src="/images/carrinho.png"
-                        alt=""></a>
-            </div>
-            <div class="login">
-                <img src="/images/avatar.png" alt="avatar" class="avatar">
-                <div class="navegador-header">
-                    <a id="login-texto" href="/login" class="link">
-                        <span class="span-nav">Olá, faça seu login </span> </br>
-                        <span style="margin-left:8%" class="span-nav"> ou cadastre-se </span>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-light light-blue lighten-4" style="background-color: #c9a9ac;">
+
+        <!-- Navbar brand -->
+        <h2 class="navbar-brand">Cabide das Noivas</h2>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Coleções <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/modelos">Modelos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sobre">Sobre</a>
+                </li>
+            </ul>
+            <!-- Links -->
+
+        </div>
+        <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
 </header>
