@@ -15,6 +15,8 @@ router.get('/quemSomos', cabideController.quemSomos);
 router.get('/sobre', cabideController.sobre);
 
 
+router.get('/busca', cabideController.busca);
+
 
 // router.get('/login', function(req, res, next) {
 //   res.render('login', { title: 'Express' });

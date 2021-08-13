@@ -1,5 +1,270 @@
+[
 {
     "id": 2,
+    "nome": "tomara-que-caia",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "/images/vestido-branco-cabide.jpeg",
+    "destaque": true
+},
+{
+    "id": 2,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
+    "nome": "Vestido Clássico",
+    "Tamanhos": [
+        "P",
+        "M",
+        "G"
+    ],
+    "preco": 75,
+    "img": "",
+    "destaque": true
+},
+{
+    "id": 1,
     "nome": "Vestido Clássico",
     "Tamanhos": [
         "P",
@@ -10,267 +275,4 @@
     "img": "",
     "destaque": true
 }
-{
-    "id": 2,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
-{
-    "id": 1,
-    "nome": "Vestido Clássico",
-    "Tamanhos": [
-        "P",
-        "M",
-        "G"
-    ],
-    "preco": 75,
-    "img": "",
-    "destaque": true
-},
+]

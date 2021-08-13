@@ -1,3 +1,5 @@
+const modelos = require('../database/modelos.json');
+
 module.exports = {
   index: (req, res) => {
     res.render('index', {title: 'Cabide das Noivas - Home'});
@@ -45,4 +47,18 @@ module.exports = {
       title: 'Cabide das Noivas - Sobre'
     });
   },
+	busca: (req, res) => {
+
+		// Guardar a string buscada em uma variável "busca"
+		const busca = req.query.busca;
+
+		// Representar em um array "encontradas" somente os modelos
+		// que contenham a string buscada
+		const encontradas = modelos.filter(
+			p => p.nome.toLowerCase().includes(busca.toLowerCase())
+		)
+
+		// Retornar uma view com o modelo encontrado
+		res.render("index", {modelos: encontradas});
+	}
 }
