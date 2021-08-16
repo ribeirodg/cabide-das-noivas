@@ -18,50 +18,84 @@
 .logo-main {
     text-align: center;
     height: 180px;
-    margin: 50px 100px 0px 30px;
-    font-size: 80px;
+    font-size: 40px;
     font-family: 'SignPainter', 'HouseScript';
     color: #78141e;
+    text-transform: none;
+    letter-spacing: 2px;
 }
 
-.navegador {
-    text-align: center;
+.section-modelos {
+    padding: 50px 0px;
+    height: 800px;
+}
+
+.imagem-modelos {
+    height: 100%;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.col-md-4 {
+    padding: 15px;
+}
+
+.texto-sobre {
+    color: black;
+}
+
+.texto-colecoes{
+    color: black;
+    justify-content: justify;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    background-color: #efbdbc;
     display: flex;
-    width: 1000px;
-    justify-content: space-between;
-    font-size: 20px;
-    font-family: 'Oxygen';
-    margin-bottom: 50px;
-    margin-left: 25%;
-    /* font-weight: 800; */
-    /* background-color: black; */
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
 }
 
-li {
-    color: black
+/* img {
+    max-width: 220px;
+    max-height: 150px;
+} */
+
+.limite {
+    position: relative;
+    width: 80%;
+    height: 100%;
 }
 
-.container-imagens {
-    margin-left: 130px;
-    margin-right: 130px;
+.img {
     width: 100%;
+    height: 100%;
 }
 
-.img1-2 {
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: hsla(0, 0%, 50%, .87);
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
-.img2-3 {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    height: 400px;
-    margin-top: 200px;
+.limite:hover .overlay {
+    opacity: 1;
+    transition: 0.5s;
 }
 
-main img {
-    width: 300px;
-    height: 400px;
+.overlay img {
+    width: 80%;
+    margin: 0 10%;
 }

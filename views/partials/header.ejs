@@ -1,25 +1,67 @@
 <header>
 
     <!--Navbar-->
-    <nav class="navbar navbar-light light-blue lighten-4" style="background-color: #c9a9ac;">
+    <nav class="navbar navbar-light light-blue lighten-4" style="background-color: #efbdbc;">
 
         <!-- Navbar brand -->
         <h2 class="navbar-brand">Cabide das Noivas</h2>
 
+        <!-- <form action="/busca" method="GET" class="container-pesquisa">
+           
+                <div class="input-grupo">
+                    <input type="text" class="input-buscar" placeholder="Busque aqui seu produto">
+                        <button class="lupa" type="submit"><img src="./images/lupa.png" alt="lupa"></button>
+                    
+                </div>
+            </input>
+            
+            
+            
+        </form> -->
+
+        <div class="lista-nav">
+            <a href="/colecoes" class="link">COLEÇÕES</a>
+            <a href="/modelos" class="link">MODELOS</a>
+            <a href="/sobre" class="link">SOBRE</a>
+            <a alt="carrinho de compras" class="carrinho" href="/modelos"><img src="/images/carrinho.png"
+                    alt=""></a>
+        </div>
+
+        <div class="login">
+
+
+            <img src="/images/avatar.png" alt="avatar" class="avatar">
+
+            <div class="navegador-header">
+
+                <a id="login-texto" href="/login" class="link">
+
+
+                    <span class="span-nav">Olá, faça seu login </span></br>
+
+                    <span  class="span-nav"> ou cadastre-se </span>
+
+                </a>
+            </div>
+        </div>
+        </div>
         <!-- Collapse button -->
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-          class="fas fa-bars fa-1x"></i></span></button>
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+            aria-label="Toggle navigation" >
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
+        </button>
 
         <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
 
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Coleções <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/modelos">Modelos</a>
+                    <a class="nav-link" href="/colecoes">Coleções</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/sobre">Sobre</a>

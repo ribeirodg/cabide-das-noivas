@@ -2,7 +2,7 @@
 
 footer .main-footer {
     padding: 20px 0;
-    background: #c9a9ac;
+    background: #efbdbc;
 }
 
 footer ul {
@@ -14,7 +14,7 @@ footer ul {
 /* Copy Right Footer */
 
 .footer-copyright {
-    background: #c9a9ac;
+    background: #efbdbc;
     padding: 5px 0;
 }
 
@@ -59,7 +59,7 @@ footer ul {
 /* Footer Top */
 
 .footer-top {
-    background: #c9a9ac;
+    background: #efbdbc;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 3px solid #222;
