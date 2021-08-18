@@ -282,167 +282,8 @@
 
   /* media querie */
 
-  @media (max-width:823px) {
-    .pai-footer {
-        display: none;
-    }
-    .copyright {
-        display: none;
-    }
-    
-    /* HEADER */
 
-    nav .navbar-brand {
-        font-size: 30px ;
-        justify-content: center;
-        padding-top:20px;
-    }
-
-  .login{
-      display: none;
-  }
-
-  .input-buscar{
-      display: none;
-  }
-
-  .lupa{
-      display: none;
-  }
-  .lista-nav{
-      display: none;
-  }
-
-  .navbar-toggler first-button{
-      display: block !important;
-  }
-    /* CARROSSEL */
-    button .botao-conheca {
-        display: none !important;
-    }
-    .span-carrosel {
-        font-size: 10px !important;
-        color: white !important;
-        margin-left: 0% !important;
-    }
-    .carousel-caption {
-        left: 5% !important;
-        margin: 0% !important;
-    }
-    /* CARD */
-    .titulo-card {
-        font-size: 40px;
-    }
-    .card-texto {
-        font-size: 15px;
-        color: black;
-    }
-    .botao-modelos {
-        display: none;
-    }
-    .conteudo-card {
-        background-image: none;
-        padding: 0 0 0 15%;
-        justify-content: center;
-        width: 100%;
-    }
-    .conteudo-card2 {
-        background-image: none;
-        padding: 0 0 0 15%;
-        justify-content: center;
-    }
-    .card-texto2 {
-        font-size: 15px;
-        color: black;
-    }
-    .conteudo-card3 {
-        background-image: none;
-        padding: 0 0 0 15%;
-        justify-content: center;
-    }
-    .card-texto3 {
-        font-size: 15px;
-        color: black;
-    }
-  
-
-    #img-sobre{
-        width: 315px;
-    }
-
-    /* PAGINA ENTRE EM CONTATO */
-
-    .textoSection{
-      padding : 20px;
-      width: 30%;
-      text-align: justify;
-     
-  }
-  .row{
-      width: 60%;
-
-  }
-
-  #inputMensagem{
-      width: 29%;
-  }
-  #textNome{
-  margin-bottom: 5%;
-  }
-
-  #inputEmail{
-      margin-bottom: 5%;
-  }
-
-  .form-control{
-      margin-bottom: 5%; 
-  }
-
-  
-  .btnEnviar{
-      margin-left: 10%;
-      margin-bottom: 10%; 
-  }
-
-  .section-container{
-      margin-bottom: 25%; 
-  }
-#textoAtendimento{
-  margin-top: 10%;
-}
-.input-sobre{
-  width: 54%;
- 
-}
-.sectionMapa{
-  height: 300px;
-}
-
-   /* TELA COLECOES */
-
-   .texto-colecoes{
-      color: black;
-      letter-spacing: 0px;
-      font-size: 16px;
-      font-weight: 300;
-      padding-right: 0;
-      text-align: left;
-     padding-bottom: 20%;
-      line-height: 1.5;
-     
-   }
-
-   .logo-main{
-       margin-top: 10%;
-       margin-bottom: 20%;
-   }
-    .col-md-6{
-  margin-bottom: 10%;
-}
-
-}
-
-  @media (max-width: 460px) {
+  @media (max-width: 900px) {
       .pai-footer {
           display: none;
       }
@@ -473,8 +314,8 @@
         display: none;
     }
 
-    .navbar-toggler first-button{
-        display: block !important;
+    .first-button{
+        display: block ;
     }
       /* CARROSSEL */
       button .botao-conheca {
@@ -527,7 +368,11 @@
       /* Smartphone */
 
       #img-sobre{
-          width: 315px;
+          width: 100%;
+
+          display: flex;
+    justify-content: center;
+    flex-direction: column;
       }
 
       /* PAGINA ENTRE EM CONTATO */
