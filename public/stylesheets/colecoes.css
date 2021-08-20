@@ -27,7 +27,7 @@
 
 .section-modelos {
     padding: 50px 0px;
-    height: 800px;
+    height: 1000px
 }
 
 .imagem-modelos {
@@ -44,7 +44,7 @@
     color: black;
 }
 
-.texto-colecoes{
+.texto-colecoes {
     color: black;
     justify-content: justify;
 }
@@ -58,6 +58,7 @@ figure {
     max-width: 220px;
     margin: auto;
 }
+
 
 /* img {
     max-width: 220px;
