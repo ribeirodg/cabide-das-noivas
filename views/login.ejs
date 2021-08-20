@@ -7,15 +7,15 @@
             <a class="links" id="paralogin"></a>
             <div class="content">      
                 <div id="login">
-                    <form method="post" action="/entrar">
+                    <form method="POST" action="/login">
                         <h1>Login</h1>
                         <p>
                             <label for="e_mail">E-mail:</label> 
-                            <input type="text" placeholder="Digite seu e-mail" required="required">
+                            <input type="text" placeholder="Digite seu e-mail" required="required" name="email">
                         </p>             
                         <p>
                             <label for="senha">Senha:</label>  
-                            <input type="password" placeholder="Digite sua senha" required="required"> 
+                            <input type="password" placeholder="Digite sua senha" required="required" name="senha"> 
                         </p>
                         <input type="submit" value="Entrar"> 
                    
