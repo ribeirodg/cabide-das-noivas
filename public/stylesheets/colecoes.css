@@ -27,7 +27,7 @@
 
 .section-modelos {
     padding: 50px 0px;
-    height: 1000px
+    text-align: justify
 }
 
 .imagem-modelos {
@@ -46,7 +46,8 @@
 
 .texto-colecoes {
     color: black;
-    justify-content: justify;
+    display: flex;
+    justify-content: center;
 }
 
 figure {

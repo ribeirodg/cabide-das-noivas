@@ -1,7 +1,7 @@
 /* Main Footer */
 
 footer .main-footer {
-    padding: 20px 0;
+    padding: 18px 0;
     background: #efbdbc;
 }
 
@@ -53,6 +53,12 @@ footer ul {
 .footer-copyright p {
     color: #969696;
     margin: 2px 0 0;
+}
+
+#copyright {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 
